@@ -1,0 +1,410 @@
+body {
+  
+}
+
+#body {
+    position: fixed;
+    width: 1940px; 
+	height: 757px; 
+    bottom: 0px;
+    left: 0px;
+    background-image: url(les.png);
+    background-position: 0px 0px;
+    background-size: 100% 100%;
+    background-repeat: repeat-x;
+}
+
+#rocket {
+     position: fixed;
+    width: 195px; 
+	height: 447px; 
+    bottom: -50px;
+    left: 1150px;
+    background-position: 0px 0px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+	background-image: url(rocket.png);
+     -webkit-animation: fly 2s linear infinite;
+        animation-timing-function: ease-in;
+}
+
+#sun {
+     position: fixed;
+    width: 125px; 
+	height: 125px; 
+    left: 50px;
+    top: 250px;
+    background-position: 0px 0px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+	background-image: url(sun.png);
+            -webkit-animation: sunrise 90s linear infinite;
+              animation-timing-function: ease-in-out;
+                
+
+}
+
+#trava1 {
+     position: fixed;
+    width: 500px; 
+	height: 55px; 
+    bottom: -17px;
+    left: -10px;
+    background-position: 0px 0px;
+    background-size: 7% 100%;
+    background-repeat: repeat-x;
+	   background-image: url(kust1.png);
+     -webkit-animation:spin 2s linear infinite;
+             animation-direction: alternate;
+             animation-timing-function: ease-in-out;
+}
+#trava2 {
+     position: fixed;
+    width: 500px; 
+	height: 63px; 
+    bottom: -17px;
+    left: 0px;
+    background-position: 0px 0px;
+    background-size: 7% 100%;
+    background-repeat: space;
+	     background-image: url(kust2.png);
+     -webkit-animation:spin 3s linear infinite;
+             animation-direction: alternate;
+             animation-timing-function: ease-in-out;
+}
+#trava3 {
+     position: fixed;
+    width: 500px; 
+	height: 63px; 
+    bottom: -17px;
+    left: 13px;
+    background-position: 0px 0px;
+    background-size: 7% 100%;
+    background-repeat: space;
+	     background-image: url(kust4.png);
+     -webkit-animation:spin 5s linear infinite;
+             animation-direction: alternate;
+             animation-timing-function: ease-in-out;
+}
+#trava4 {
+     position: fixed;
+    width: 500px; 
+	height: 63px; 
+    bottom: -17px;
+    left: 500px;
+    background-position: 0px 0px;
+    background-size: 7% 100%;
+    background-repeat: space;
+	    background-image: url(kust1.png);
+     -webkit-animation:spin 4s linear infinite;
+             animation-direction: alternate;
+             animation-timing-function: ease-in-out;
+}
+#trava5 {
+     position: fixed;
+    width: 500px; 
+	height: 63px; 
+    bottom: -17px;
+    left: 480px;
+    background-position: 0px 0px;
+    background-size: 7% 100%;
+    background-repeat: space;
+	     background-image: url(kust2.png);
+     -webkit-animation:spin 5s linear infinite;
+             animation-direction: alternate;
+             animation-timing-function: ease-in-out;
+}
+#trava6 {
+     position: fixed;
+    width: 500px; 
+	height: 63px; 
+    bottom: -17px;
+    left: 450px;
+    background-position: 0px 0px;
+    background-size: 7% 100%;
+    background-repeat: space;
+	    background-image: url(kust4.png);
+     -webkit-animation:spin 4s linear infinite;
+             animation-direction: alternate;
+             animation-timing-function: ease-in-out;
+}
+#trava7 {
+     position: fixed;
+    width: 500px; 
+	height: 63px; 
+    bottom: -17px;
+    left: 900px;
+    background-position: 0px 0px;
+    background-size: 7% 100%;
+    background-repeat: space;
+	     background-image: url(kust1.png);
+     -webkit-animation:spin 5s linear infinite;
+             animation-direction: alternate;
+             animation-timing-function: ease-in-out;
+                 animation-direction: reverse;
+}
+#trava8 {
+     position: fixed;
+    width: 500px; 
+	height: 63px; 
+    bottom: -17px;
+    left: 875px;
+    background-position: 0px 0px;
+    background-size: 7% 100%;
+    background-repeat: space;
+	background-image: url(kust2.png);
+     -webkit-animation:spin 3s linear infinite;
+             animation-direction: alternate;
+             animation-timing-function: ease-in-out;
+                 animation-direction: reverse;
+}
+#trava9 {
+     position: fixed;
+    width: 500px; 
+	height: 63px; 
+    bottom: -17px;
+    left: 850px;
+    background-position: 0px 0px;
+    background-size: 7% 100%;
+    background-repeat: space;
+     background-image: url(kust4.png);
+     -webkit-animation:spin 4s linear infinite;
+             animation-direction: alternate;
+             animation-timing-function: ease-in-out;
+}
+#trava10 {
+     position: fixed;
+    width: 500px; 
+	height: 63px; 
+    bottom: -17px;
+    left: 1200px;
+    background-position: 0px 0px;
+    background-size: 7% 100%;
+    background-repeat: space;
+	     background-image: url(kust1.png);
+     -webkit-animation:spin 3s linear infinite;
+             animation-direction: alternate;
+             animation-timing-function: ease-in-out;
+}
+#trava11 {
+     position: fixed;
+    width: 500px; 
+	height: 63px; 
+    bottom: -17px;
+    left: 1230px;
+    background-position: 0px 0px;
+    background-size: 7% 100%;
+    background-repeat: space;
+	     background-image: url(kust2.png);
+     -webkit-animation:spin 4s linear infinite;
+             animation-direction: alternate;
+             animation-timing-function: ease-in-out;
+	
+}
+#trava12 {
+     position: fixed;
+    width: 500px; 
+	height: 63px; 
+    bottom: -17px;
+    left: 1250px;
+    background-position: 0px 0px;
+    background-size: 7% 100%;
+    background-repeat: space;
+	     background-image: url(kust4.png);
+     -webkit-animation:spin 5s linear infinite;
+             animation-direction: alternate;
+             animation-timing-function: ease-in-out;
+}
+#trava13 {
+     position: fixed;
+    width: 200px; 
+	height: 63px; 
+    bottom: -14px;
+    left: 300px;
+    background-position: 0px 0px;
+    background-size: 15% 100%;
+    background-repeat: space;
+	   background-image: url(kust1.png);
+     -webkit-animation:spin 2s linear infinite;
+             animation-direction: alternate;
+             animation-timing-function: ease-in-out;
+}
+#trava14 {
+     position: fixed;
+    width: 200px; 
+	height: 63px; 
+    bottom: -12px;
+    left: 750px;
+    background-position: 0px 0px;
+    background-size: 15% 100%;
+    background-repeat: space;
+	background-image: url(kust2.png);
+     -webkit-animation:spin 3s linear infinite;
+             animation-direction: alternate;
+             animation-timing-function: ease-in-out;
+}
+#trava15 {
+     position: fixed;
+    width: 200px; 
+	height: 63px; 
+    bottom: -12px;
+    left: 1150px;
+    background-position: 0px 0px;
+    background-size: 15% 100%;
+    background-repeat: space;
+	background-image: url(kust4.png);
+     -webkit-animation:spin 2s linear infinite;
+             animation-direction: alternate;
+             animation-timing-function: ease-in-out;
+}
+
+#table {
+    position: fixed;
+    width: 318px; 
+	height: 195px; 
+    bottom: 10px;
+    left: 1320px;
+     background-position: 0px 0px;
+    background-repeat: no-repeat;
+}
+
+#strelka {
+    position: fixed;
+    width: 26px; 
+	height: 105px; 
+    bottom: 40px;
+    left: 1468px;
+     background-position: 0px 0px;
+    background-repeat: no-repeat;
+}
+
+#strelka-pivot {
+    position: fixed;
+    width: 10px; 
+	height: 10px; 
+    bottom: 145px;
+    left: 1468px;
+	background-color: red;
+     background-position: 0px 0px;
+    background-repeat: no-repeat;
+	 -webkit-animation: pivot 0.9s linear infinite;
+}
+
+#fire
+	{position: fixed;
+    width: 100px; 
+	height: 184px; 
+    bottom: 110px;
+    left: 1197px;
+    background-position: 0px 0px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+	transform-origin:100% 0%;
+    background-image: url(fire.png);
+     -webkit-animation: fire 2s linear infinite, transf 0.08s linear infinite;
+            animation-timing-function: ease-in;
+}
+
+
+ #cl1 {
+     position: absolute;
+    width: 500px; 
+	height: 85px; 
+    background-size: 100% 100%;
+    background-position: 0px 0px;
+    background-position: absolute;
+    background-repeat: no-repeat;
+     
+}
+
+#cl2 {
+    position: absolute;
+    width: 425px; 
+	height: 100px; 
+    background-size: 100% 100%;
+    background-position: 0px 0px;
+    background-position: absolute;
+    background-repeat: no-repeat;
+
+}
+
+
+#cl3 {
+    position: absolute;
+    width: 215px; 
+	height: 75px; 
+    background-size: 100% 100%;
+    background-position: 0px 0px;
+    background-position: absolute;
+    background-repeat: no-repeat;
+}
+
+
+
+@-webkit-keyframes mymove {
+    0% {left: -1000px; top: 0px; opacity: 1}
+    90% {opacity: 1}
+    100% {left: 1200px; top: 0px; opacity: 0}
+}
+
+@-webkit-keyframes mymove2 {
+    0% {left: -700px; top: 100px; opacity: 1}
+    90% {opacity: 1}
+    100% {left: 1200px; top: 100px; opacity: 0}
+}
+
+@-webkit-keyframes mymove3 {
+    0% {left: -500px; top: 75px; opacity: 1}
+    90% {opacity: 1}
+    100% {left: 1200px; top: 75px; opacity: 0}
+}
+
+
+@-webkit-keyframes spin { 
+    50% {-webkit-transform: skew(1deg, 3deg)}
+    100% {-webkit-transform: skew(-1deg, -3deg)}
+
+         }
+        
+@-webkit-keyframes sunrise {
+    0% {top: -150px; left: 50px; opacity: 0.5}
+    50% {top: 550px; left: 100px; opacity: 0.7}
+    100% {top: -150px; left: 50px;  opacity: 0.5}
+}
+
+@-webkit-keyframes fuel {
+   
+    0% {-webkit-transform: rotate(-90deg)}
+     25% {-webkit-transform: rotate(0deg)}
+    50% {-webkit-transform: rotate(90deg)}
+    75% {-webkit-transform: rotate(0deg)}
+    100% {-webkit-transform: rotate(-90deg)}
+}
+@-webkit-keyframes pivot {
+   
+    0% {left: 1323px;}
+    25% {left: 1468px;}
+	50% {left: 1613px;}
+	75% {left: 1468px;}
+	100% {left: 1323px;}
+}
+
+@-webkit-keyframes fly {
+   
+    0% {bottom: 0px}
+   100% {bottom: 1500px}
+}
+
+@-webkit-keyframes fire {
+    0% {bottom: -70px}
+   100% {bottom: 1400px}
+    
+}
+
+@-webkit-keyframes transf {
+    0% {-webkit-transform:  scaleY(1.50);} 
+    100% {-webkit-transform: scaleY(-1.50);} 
+    
+}
+
+
